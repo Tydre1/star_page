@@ -1,5 +1,11 @@
+:root {
+    --background: #332b66;
+    --cabecalho: #c9b9f5;
+
+}
+
 body {
-    background-color: #332b66;
+    background-color: var(--background);
 }
 
 .cabecalho {
@@ -41,9 +47,13 @@ body {
 }
 
 .conteudo_star {
-    margin: 15em 0px 0px 20em;
-    height: 16em;
+    margin: 13em 0px 0px 20em;
+    height: 14em;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.conteudo-texto {
+    margin: 18em 40px 0px 20px;
 }
