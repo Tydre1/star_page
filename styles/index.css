@@ -63,3 +63,34 @@ body {
     margin: 8em 13em 0em 0.938em;
     text-align: center;
 }
+
+@media (max-width: 1243px) {
+    .conteudo {
+        display: flex;
+
+        flex-direction:column;
+        width: 100%;
+    }
+
+    .conteudo_star {
+        margin: 9em 0 2em 0;
+    }
+
+    .conteudo-texto {
+        margin: 9em 10em 2em 10em;
+    }
+}
+
+@media (max-width: 659px) {
+    .cabecalho {
+        height: 3em;
+    }
+
+    .retangulo {
+        display: none;
+    }
+
+    .conteudo-texto {
+        margin: 9em 2em 2em 2em;
+    }
+}
